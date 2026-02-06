@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21608FC19C8F24D5A17503DA /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518DA1ED858A783D9EAA9C6 /* Routes.swift */; };
+		36842C007AA3D8599BD6F49A /* SimuBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A3F3856FCE478937E07C17 /* SimuBridgeApp.swift */; };
+		735EA7254F2295F21F7DBCA9 /* InteractionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17964E26CBDECF041F69FB19 /* InteractionService.swift */; };
+		790C2B75B2EAB334C6070288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA288CF7C3C737E3F88A65A9 /* Foundation.framework */; };
+		9D3CB705AB406232666DBAAE /* TestEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1172F675926BEAE85EC62D1 /* TestEntry.swift */; };
+		D6415A43342A762C6D293DFD /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF74CB5FF07C931FAA3E15 /* AccessibilityService.swift */; };
+		ED7B5E7940F87A2282AEB3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA288CF7C3C737E3F88A65A9 /* Foundation.framework */; };
+		FE4779F9105BD4C76303621D /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323715DE3FAC9A736083DCD /* HTTPServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849E5F47CEB5F8BF94BC7127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E75D6CBB263BEDECB805ACCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A79D94B6B097259EAD12F3E;
+			remoteInfo = SimuBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17964E26CBDECF041F69FB19 /* InteractionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractionService.swift; path = SimuBridgeUITests/InteractionService.swift; sourceTree = "<group>"; };
+		32CF74CB5FF07C931FAA3E15 /* AccessibilityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessibilityService.swift; path = SimuBridgeUITests/AccessibilityService.swift; sourceTree = "<group>"; };
+		59D97F277DAA9C89FF6827FD /* SimuBridgeUITests.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; name = SimuBridgeUITests.entitlements; path = SimuBridgeUITests/SimuBridgeUITests.entitlements; sourceTree = "<group>"; };
+		7323715DE3FAC9A736083DCD /* HTTPServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPServer.swift; path = SimuBridgeUITests/HTTPServer.swift; sourceTree = "<group>"; };
+		77A3F3856FCE478937E07C17 /* SimuBridgeApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimuBridgeApp.swift; path = SimuBridge/SimuBridgeApp.swift; sourceTree = "<group>"; };
+		8E464CE0A1E45601283AA019 /* SimuBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimuBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1172F675926BEAE85EC62D1 /* TestEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestEntry.swift; path = SimuBridgeUITests/TestEntry.swift; sourceTree = "<group>"; };
+		BA288CF7C3C737E3F88A65A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB2F751776966BC5F7C8B356 /* SimuBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimuBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F518DA1ED858A783D9EAA9C6 /* Routes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routes.swift; path = SimuBridgeUITests/Routes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F9C6BFB824ABA3F73120A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7B5E7940F87A2282AEB3C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E3AC88B43DEE7D81BE2FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790C2B75B2EAB334C6070288 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2873FC921177FC05EA0F0753 /* SimuBridge */ = {
+			isa = PBXGroup;
+			children = (
+				77A3F3856FCE478937E07C17 /* SimuBridgeApp.swift */,
+			);
+			name = SimuBridge;
+			sourceTree = "<group>";
+		};
+		35BC58AEA721B351AACB98E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E037FF7FB98DE1F79C0E6D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5089BEF4F4AEB737EB0B4103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E464CE0A1E45601283AA019 /* SimuBridge.app */,
+				EB2F751776966BC5F7C8B356 /* SimuBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E037FF7FB98DE1F79C0E6D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA288CF7C3C737E3F88A65A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DDDD3B610A3D835FA49F957 /* SimuBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7323715DE3FAC9A736083DCD /* HTTPServer.swift */,
+				32CF74CB5FF07C931FAA3E15 /* AccessibilityService.swift */,
+				17964E26CBDECF041F69FB19 /* InteractionService.swift */,
+				F518DA1ED858A783D9EAA9C6 /* Routes.swift */,
+				B1172F675926BEAE85EC62D1 /* TestEntry.swift */,
+				59D97F277DAA9C89FF6827FD /* SimuBridgeUITests.entitlements */,
+			);
+			name = SimuBridgeUITests;
+			sourceTree = "<group>";
+		};
+		8B88DE7AFE0DD51D0021D36F = {
+			isa = PBXGroup;
+			children = (
+				5089BEF4F4AEB737EB0B4103 /* Products */,
+				35BC58AEA721B351AACB98E1 /* Frameworks */,
+				2873FC921177FC05EA0F0753 /* SimuBridge */,
+				6DDDD3B610A3D835FA49F957 /* SimuBridgeUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A79D94B6B097259EAD12F3E /* SimuBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB35E528002C338705E04712 /* Build configuration list for PBXNativeTarget "SimuBridge" */;
+			buildPhases = (
+				722B16E2F7DF6263159F8690 /* Sources */,
+				00F9C6BFB824ABA3F73120A0 /* Frameworks */,
+				47B15DFC24FEF27F5E61DC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimuBridge;
+			productName = SimuBridge;
+			productReference = 8E464CE0A1E45601283AA019 /* SimuBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E21109C8C5FCCBF441520626 /* SimuBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D099A3B4CEB4E3FB2930FD55 /* Build configuration list for PBXNativeTarget "SimuBridgeUITests" */;
+			buildPhases = (
+				CD205E48CECAB36FDAE16255 /* Sources */,
+				A9E3AC88B43DEE7D81BE2FAD /* Frameworks */,
+				CA7B38B803CEC7A47272BEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5E0FCABD3118B337989CF6 /* PBXTargetDependency */,
+			);
+			name = SimuBridgeUITests;
+			productName = SimuBridgeUITests;
+			productReference = EB2F751776966BC5F7C8B356 /* SimuBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75D6CBB263BEDECB805ACCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 8AD957CF0EF0030EEB034C74 /* Build configuration list for PBXProject "SimuBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B88DE7AFE0DD51D0021D36F;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5089BEF4F4AEB737EB0B4103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A79D94B6B097259EAD12F3E /* SimuBridge */,
+				E21109C8C5FCCBF441520626 /* SimuBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B15DFC24FEF27F5E61DC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7B38B803CEC7A47272BEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722B16E2F7DF6263159F8690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36842C007AA3D8599BD6F49A /* SimuBridgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD205E48CECAB36FDAE16255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4779F9105BD4C76303621D /* HTTPServer.swift in Sources */,
+				D6415A43342A762C6D293DFD /* AccessibilityService.swift in Sources */,
+				735EA7254F2295F21F7DBCA9 /* InteractionService.swift in Sources */,
+				21608FC19C8F24D5A17503DA /* Routes.swift in Sources */,
+				9D3CB705AB406232666DBAAE /* TestEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5E0FCABD3118B337989CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimuBridge;
+			target = 1A79D94B6B097259EAD12F3E /* SimuBridge */;
+			targetProxy = 849E5F47CEB5F8BF94BC7127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09400566BCE710D4C50BE3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1318DCB6F71441DD4D497F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9351624EADCA4EC70C23B87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simu.SimuBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A0E61864CEBBF7218AB9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simu.SimuBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE38A10E5360653A8EE1F164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = SimuBridgeUITests/SimuBridgeUITests.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simu.SimuBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimuBridge;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BD568ED55045547DD76023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = SimuBridgeUITests/SimuBridgeUITests.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simu.SimuBridgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimuBridge;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AD957CF0EF0030EEB034C74 /* Build configuration list for PBXProject "SimuBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09400566BCE710D4C50BE3EF /* Debug */,
+				1318DCB6F71441DD4D497F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D099A3B4CEB4E3FB2930FD55 /* Build configuration list for PBXNativeTarget "SimuBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE38A10E5360653A8EE1F164 /* Release */,
+				F9BD568ED55045547DD76023 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB35E528002C338705E04712 /* Build configuration list for PBXNativeTarget "SimuBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9351624EADCA4EC70C23B87C /* Release */,
+				95A0E61864CEBBF7218AB9A4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75D6CBB263BEDECB805ACCD /* Project object */;
+}
