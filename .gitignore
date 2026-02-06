@@ -1,0 +1,7 @@
+node_modules/
+build/
+*.js.map
+.DS_Store
+bridge/build/
+bridge/DerivedData/
+bridge/.build/
