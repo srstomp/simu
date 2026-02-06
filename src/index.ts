@@ -2,6 +2,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { registerDeviceTools } from "./tools/device.js";
+import { registerInteractionTools } from "./tools/interaction.js";
 
 const server = new McpServer({
   name: "simu",
@@ -9,6 +10,7 @@ const server = new McpServer({
 });
 
 registerDeviceTools(server);
+registerInteractionTools(server);
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
