@@ -45,6 +45,7 @@ export class BridgeManager {
       "-project", projectPath,
       "-scheme", "SimuBridge",
       `-destination`, `platform=iOS Simulator,id=${deviceId}`,
+      "-test-timeouts-enabled", "NO",
       "-only-testing:SimuBridgeUITests/SimuBridgeTests/testRunBridge",
     ]);
 

@@ -46,7 +46,18 @@ class HTTPServer {
             }
 
             let (method, path, body) = self?.parseRequest(request) ?? ("", "", nil)
-            let (status, responseBody) = self?.routeHandler?(method, path, body) ?? (404, "{\"error\":\"no handler\"}")
+
+            // XCUITest operations must run on the main thread
+            var status = 404
+            var responseBody = "{\"error\":\"no handler\"}"
+            let semaphore = DispatchSemaphore(value: 0)
+            DispatchQueue.main.async {
+                let result = self?.routeHandler?(method, path, body) ?? (404, "{\"error\":\"no handler\"}")
+                status = result.0
+                responseBody = result.1
+                semaphore.signal()
+            }
+            semaphore.wait()
 
             let statusText = status == 200 ? "OK" : status == 400 ? "Bad Request" : "Not Found"
             let response = "HTTP/1.1 \(status) \(statusText)\r\nContent-Type: application/json\r\nContent-Length: \(responseBody.utf8.count)\r\nConnection: close\r\n\r\n\(responseBody)"

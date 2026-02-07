@@ -4,6 +4,7 @@ final class SimuBridgeTests: XCTestCase {
 
     override func setUpWithError() throws {
         continueAfterFailure = true
+        executionTimeAllowance = 60 * 60 // 1 hour
     }
 
     func testRunBridge() throws {
