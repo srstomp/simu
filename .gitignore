@@ -22,3 +22,6 @@ screenshots/
 # Environment
 .env
 .mcp.json
+
+# Internal plans
+docs/plans/
