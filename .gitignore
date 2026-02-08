@@ -1,7 +1,24 @@
+# Dependencies
 node_modules/
+
+# Build output
 build/
 *.js.map
+
+# macOS
 .DS_Store
+
+# Xcode / Bridge
 bridge/build/
 bridge/DerivedData/
 bridge/.build/
+*.xcuserdata
+xcuserdata/
+
+# Test artifacts
+*.baseline.png
+screenshots/
+
+# Environment
+.env
+.mcp.json
