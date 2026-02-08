@@ -57,18 +57,20 @@ The XCUITest bridge builds automatically on first use (~15 seconds).
 
 ## Usage with Claude Code
 
-Add to your project's `.mcp.json`:
+Create a `.mcp.json` in your project root (or add to an existing one):
 
 ```json
 {
   "mcpServers": {
     "simu": {
       "command": "node",
-      "args": ["/path/to/simu/build/index.js"]
+      "args": ["/absolute/path/to/simu/build/index.js"]
     }
   }
 }
 ```
+
+> **Note:** `.mcp.json` contains machine-specific paths and is gitignored. Each developer creates their own.
 
 Then ask Claude things like:
 - "Boot the iPhone 17 Pro simulator and take a screenshot"
