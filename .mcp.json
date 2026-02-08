@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "simu": {
-      "command": "node",
-      "args": ["/Users/steve/Projects/stevestomp/simu/build/index.js"]
-    }
-  }
-}
